@@ -1,0 +1,31 @@
+/**************
+Hero Area
+***************/
+
+/* Section Hero */
+.hero-area--content {
+    max-width: 780px;
+  }
+  
+  .hero-area--content__title {
+    /* font-size: var(--text-xl); */
+    text-transform: uppercase;
+    margin-bottom: var(--space-s);
+  }
+  
+  .hero-area--content__subtitle {
+    /* font-size: var(--text-xl); */
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: var(--space-2xs);
+  }
+  
+  .hero-area--content__text {
+    max-width: 500px;
+    margin-bottom: var(--space-s);
+  }
+  
+  .hero-area .splide__slide {
+    padding-top: 156px; /* Adjust Based on the transparent Header */
+    padding-bottom: 50px;
+  }

@@ -1,0 +1,54 @@
+/* -------------------------------------------------------------------------------------/*
+Glen Nepomuceno CSS framework
+Ver: 1.0 \ Author URI: glennepomuceno.com
+/* -------------------------------------------------------------------------------------*/
+
+/*-------------- Plugins --------------*/
+@import './plugins/core_framework.scss'; // For Bricks Editor - To be remove in Production
+// @import './plugins/normalize.scss';
+// @import './plugins/_fontawesome.scss';
+// @import './plugins/slick.scss';
+// @import './plugins/slick-theme.scss';
+
+/*-------------- Main --------------*/
+@import "./main/settings.scss";
+@import "./main/utilities.scss";
+// @import './utilities/grid';
+// @import './utilities/fonts';
+
+/*-------------- Base --------------*/
+@import './base/base.scss';
+@import './base/theme.scss';
+
+/*-------------- Header --------------*/
+@import './header/header-base.scss';
+@import './footer/footer-base.scss';
+
+/*-------------- Sections --------------*/
+@import './layout/hero/hero-base.scss';
+@import './layout/sections/page-heading.scss';
+@import './layout/sections/section-main.scss';
+// @import './pages/homepage';
+
+/*-------------- UI --------------*/
+@import './ui/buttons';
+@import './ui/card-main.scss';
+@import './ui/carousel.scss';
+@import './ui/counter.scss';
+@import './ui/forms-base.scss';
+// @import './layout/nav';
+// @import './layout/header';
+// @import './layout/footer';
+// @import './layout/page';
+
+
+
+
+
+
+/*-------------- Mobile --------------*/
+
+p {
+    font-size: 20px;
+    color: #000;
+}

@@ -1,0 +1,49 @@
+/**************
+ Header 
+***************/
+
+/****** Top Menu *******/
+.header-top-menu--wrap {
+    transition: all 0.2s, transform 0.4s;
+  }
+  
+  header.scrolling .header-top-menu--wrap {
+    height: 0;
+    border-bottom: 0 !important;
+    pointer-events: none;
+    opacity: 0;
+  }
+  
+  /****** Nav Menu - Brick old Nav *******/
+  .main-header--nav-menu nav > ul li:hover {
+    color: var(--bricks-color-rtrfos); /*Change > Primary Color*/
+  }
+  
+  .main-header--nav-menu nav ul li .sub-menu li:hover {
+    background-color: var(--bricks-color-rtrfos); /*Change > Primary Color*/
+  }
+  
+  .main-header--nav-menu nav ul li .sub-menu li:last-child {
+    border-bottom: none !important;
+  }
+  
+  .main-header--nav-menu ul li {
+    margin-bottom: 0;
+  }
+  
+  /****** Mobile Menu - Brick old Nav *******/
+  .main-header--nav-menu .bricks-mobile-menu-wrapper {
+    padding-top: 100px;
+  }
+  
+  .main-header--nav-menu .bricks-mobile-menu-wrapper ul li a {
+    line-height: 40px;
+  }
+  
+  .main-header--nav-menu .bricks-mobile-menu-wrapper .sub-menu li > a {
+    padding: 0 30px 0 44px !important;
+  }
+  
+  .main-header--nav-menu .bricks-mobile-menu-wrapper .sub-menu .sub-menu li > a {
+    padding: 0 30px 0 54px !important;
+  }

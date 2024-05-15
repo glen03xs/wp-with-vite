@@ -1,0 +1,25 @@
+/**************
+ Footer
+***************/
+.footer--main {
+    padding: var(--space-2xl) 0;
+}
+
+.footer--bottom {
+  background-color: #30353a;
+  padding: var(--space-2xs) 0;
+}
+
+.footer--bottom-wrap {
+  text-align: center;
+  color: var(--theme-alt-1);
+}
+
+.footer--bottom-wrap > div {
+    width: 100%;
+  }
+
+.footer--bottom p {
+  text-align: center;
+  color: var(--theme-alt-1);
+}

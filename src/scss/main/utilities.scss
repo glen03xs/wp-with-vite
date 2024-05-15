@@ -1,0 +1,46 @@
+/**************
+ Utility 
+***************/
+
+.hide-section {
+    display: none;
+  }
+  
+  .bsd-l-text h1,
+  .bsd-l-text h2,
+  .bsd-l-text h3,
+  .bsd-l-text h4,
+  .bsd-l-text h5,
+  .bsd-l-text h6,
+  .bsd-l-text p,
+  .bsd-l-text li,
+  .bsd-l-text span,
+  .bsd-l-text cite {
+    color: #ffffff;
+  }
+  
+  .reset-blockquote {
+      padding: 0;
+      border-left: 0;
+      margin: 0; 
+  }
+
+
+  /****** Others *******/
+.bsd-parallax {
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+  }
+  
+  .link-w-arrow:hover::after {
+    transform: translateX(6px);
+  }
+  
+  .link-w-arrow::after {
+    content: "\f061";
+    font-family: Font Awesome\ 6 Solid;
+    margin-left: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  

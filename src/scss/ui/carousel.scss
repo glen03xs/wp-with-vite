@@ -1,0 +1,24 @@
+/**************
+   Carousel 
+  ***************/
+
+  .carousel-client--wrap {
+    margin-top: var(--space-s);
+  }
+  
+  .carousel-client--head {
+    margin-bottom: var(--space-2xs);
+  }
+  
+  .carousel-client--title-label {
+    margin-bottom: 0;
+  }
+  
+  .carousel-client .swiper-slide img {
+    filter: grayscale(100%);
+    transition: 0.3s ease;
+  }
+  
+  .carousel-client .swiper-slide img:hover {
+    filter: grayscale(0);
+  }

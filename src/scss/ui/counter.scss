@@ -1,0 +1,39 @@
+/****** Counter *******/
+.counter-section {
+  padding: var(--space-5xl) 0;
+}
+
+.counter-row {
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.counter {
+  text-align: center;
+}
+
+.counter__icon-number {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+  margin-bottom: var(--space-6xs);
+
+  .brxe-icon {
+    font-size: var(--text-6xl);
+  }
+
+  .brxe-counter {
+    min-width: 78px;
+  }
+
+  .count,
+  .suffix {
+    font-size: var(--text-5xl);
+  }
+}

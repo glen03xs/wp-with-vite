@@ -1,0 +1,37 @@
+/**************
+ Section Main
+***************/
+
+
+.section-v1 {
+    padding: var(--space-3xl) 0;
+  }
+  
+  .section-v1--content-wrap {
+  }
+  
+  .section-head {
+    margin-bottom: var(--space-m);
+  }
+  
+  .section-head-v1 {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .section--title-label {
+    color: var(--bricks-color-rtrfos);
+    text-transform: uppercase;
+    font-size: var(--text-s);
+    letter-spacing: 1.8px;
+    font-weight: 600;
+    margin-bottom: var(--space-s);
+    letter-spacing: 2px;
+  }
+  
+  .section--title {
+    font-size: var(--text-3xl);
+    margin-bottom: 0;
+  }
